@@ -1,0 +1,6 @@
+framework module PXDToolkit {
+  umbrella header "PXDToolkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
