@@ -21,41 +21,41 @@ pod "PXDToolkit"
 
 <h4>Int</h4>
 **Random Int between 0 and 10 **
-```
+```swift
 let randomInt = 10.random
 ```
 ----------
 <h4>Array</h4>
 **Get random element from Array**
-```
+```swift
 let randomElement = ["A", "B", "C"].randomElement
 ```
 **Get 2 random elements from Array**
-```
+```swift
 let randomElements = ["A", "B", "C"].randomElements(2)
 ```
 **Shuffle array (order elements randomly)**
-```
+```swift
 let shuffledArray = ["A", "B", "C"].shuffled
 ```
 ----------
 <h4>UIColor</h4>
 **Color from hex int value**
-```
+```swift
 let darkRedColor = UIColor(hex: 0xAA0000)
 ```
 **Hex string from Color**
-```
+```swift
 let redColorHexString = UIColor.redColor().hexString
 ```
 ----------
 <h4>CGFloat</h4>
 **Degrees to Radians**
-```
+```swift
 let angleRadians = CGFloat(180).degreesToRadians
 ```
 **Radians to Degrees**
-```
+```swift
 let degrees = CGFloat(3.1415).radiansToDegrees
 ```
 
