@@ -82,7 +82,7 @@ If your *Localizable.strings* file contains this:
 You can do this:
 **Get localized string for a key**
 ```swift
-print(LocalizedString("A_KEY")) // "Hello"
+print(LocalizedString("GREETING")) // "Hello"
 ```
 And this:
 **Get localized string with dynamic parts**
