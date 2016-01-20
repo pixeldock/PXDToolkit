@@ -12,6 +12,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		802929D71C4FE8A7003932F4 /* TimingFunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802929D61C4FE8A7003932F4 /* TimingFunctionsTests.swift */; };
 		804861971C4E56FD0096E649 /* DateExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804861961C4E56FD0096E649 /* DateExtensionsTests.swift */; };
 		804861991C4E59A00096E649 /* FloatExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804861981C4E59A00096E649 /* FloatExtensionsTests.swift */; };
 		8048619D1C4E5C2E0096E649 /* ColorExtensionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048619C1C4E5C2E0096E649 /* ColorExtensionsTest.swift */; };
@@ -43,6 +44,7 @@
 		607FACE51AFB9204008FA782 /* PXDToolkit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXDToolkit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		772EA9A0FA78926A6938C65F /* Pods-PXDToolkit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PXDToolkit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PXDToolkit_Example/Pods-PXDToolkit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		802929D61C4FE8A7003932F4 /* TimingFunctionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunctionsTests.swift; sourceTree = "<group>"; };
 		804861951C4E56FC0096E649 /* PXDToolkit_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PXDToolkit_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		804861961C4E56FD0096E649 /* DateExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionsTests.swift; sourceTree = "<group>"; };
 		804861981C4E59A00096E649 /* FloatExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatExtensionsTests.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				8048619E1C4E5DE60096E649 /* LocalizedStringTests.swift */,
 				804861951C4E56FC0096E649 /* PXDToolkit_Tests-Bridging-Header.h */,
 				804861A41C4E94EE0096E649 /* ApplicationExtensionsTests.swift */,
+				802929D61C4FE8A7003932F4 /* TimingFunctionsTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				804861971C4E56FD0096E649 /* DateExtensionsTests.swift in Sources */,
 				8048619F1C4E5DE60096E649 /* LocalizedStringTests.swift in Sources */,
 				8048619D1C4E5C2E0096E649 /* ColorExtensionsTest.swift in Sources */,
+				802929D71C4FE8A7003932F4 /* TimingFunctionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
