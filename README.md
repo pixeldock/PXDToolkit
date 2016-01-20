@@ -1,6 +1,6 @@
 # PXDToolkit
 
-[![CI Status](http://img.shields.io/travis/Jörn Schoppe/PXDToolkit.svg?style=flat)](https://travis-ci.org/Jörn Schoppe/PXDToolkit)
+[![CI Status](http://img.shields.io/travis/pixeldock/PXDToolkit.svg?style=flat)](https://travis-ci.org/pixeldock/PXDToolkit)
 [![Version](https://img.shields.io/cocoapods/v/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
 [![License](https://img.shields.io/cocoapods/l/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
 [![Platform](https://img.shields.io/cocoapods/p/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
