@@ -14,6 +14,7 @@
 		6139B345C467B076DF2067F1BC9C9E56 /* Pods-PXDToolkit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB970B28881B2C0ADF273573E376B3E /* Pods-PXDToolkit_Example-dummy.m */; };
 		74789D48C841B3B9515509364DABDAC5 /* Pods-PXDToolkit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFF80E120AD8A1B4A433AEBE0FDAA0 /* Pods-PXDToolkit_Tests-dummy.m */; };
 		7A9962C3DC7D923AF7727EB47511D1AC /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE19ACEE694201C1E50E60BB541E12B3 /* ArrayExtensions.swift */; };
+		802929D51C4FE6E9003932F4 /* TimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802929D41C4FE6E9003932F4 /* TimingFunctions.swift */; };
 		804861A31C4E90EB0096E649 /* ApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804861A21C4E90EB0096E649 /* ApplicationExtensions.swift */; };
 		97D76FF77D70E1DD3F59729EBFFA3063 /* PXDToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F90B74B72CD19C403931734156E03C35 /* PXDToolkit-dummy.m */; };
 		A1D014970BAA45AA89E543B9186C7848 /* PXDToolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 876110CB45651C7378D6056F2A60F5D4 /* PXDToolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,6 +68,7 @@
 		70F0E1D8B2D7E4FD3D70D099B442B9DF /* Pods-PXDToolkit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PXDToolkit_Tests.modulemap"; sourceTree = "<group>"; };
 		72A56F037AFF6E8DBE755465BD3D3187 /* Pods-PXDToolkit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXDToolkit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7EB970B28881B2C0ADF273573E376B3E /* Pods-PXDToolkit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXDToolkit_Example-dummy.m"; sourceTree = "<group>"; };
+		802929D41C4FE6E9003932F4 /* TimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunctions.swift; sourceTree = "<group>"; };
 		804861A21C4E90EB0096E649 /* ApplicationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationExtensions.swift; sourceTree = "<group>"; };
 		876110CB45651C7378D6056F2A60F5D4 /* PXDToolkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXDToolkit-umbrella.h"; sourceTree = "<group>"; };
 		8E5B5D6AABEB573767D644FDF24CC371 /* Pods-PXDToolkit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXDToolkit_Example-resources.sh"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				BDD04F4FF646DD181B1CC2DFB29AC549 /* IntExtensions.swift */,
 				DF7FB525B84052D7C6883690579A3174 /* LocalizedString.swift */,
 				804861A21C4E90EB0096E649 /* ApplicationExtensions.swift */,
+				802929D41C4FE6E9003932F4 /* TimingFunctions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 			files = (
 				7A9962C3DC7D923AF7727EB47511D1AC /* ArrayExtensions.swift in Sources */,
 				ADE086BB28D9D006598196007C6F750C /* ColorExtensions.swift in Sources */,
+				802929D51C4FE6E9003932F4 /* TimingFunctions.swift in Sources */,
 				C4DBA55C5E4EB05A7CC6E47440097260 /* DateExtensions.swift in Sources */,
 				B9E951A72B7CF142D9BAA407F6034956 /* FloatExtensions.swift in Sources */,
 				AD72B9C84B96937594122214C9F8273D /* IntExtensions.swift in Sources */,
