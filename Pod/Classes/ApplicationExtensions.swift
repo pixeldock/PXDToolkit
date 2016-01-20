@@ -1,6 +1,6 @@
 //
-//  ApplicationExtenstions.swift
-//  Pods
+//  ApplicationExtensions.swift
+//  PXDToolbox
 //
 //  Created by Jörn Schoppe on 19.01.16.
 //
