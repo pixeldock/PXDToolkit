@@ -20,7 +20,7 @@ pod "PXDToolkit"
 ## Usage
 
 <h4>Int</h4>
-**Random Int between 0 and 10 **
+**Random Int between 0 and 10**
 ```swift
 let randomInt = 10.random
 ```
@@ -58,6 +58,48 @@ let angleRadians = CGFloat(180).degreesToRadians
 ```swift
 let degrees = CGFloat(3.1415).radiansToDegrees
 ```
+----------
+<h4>NSDate</h4>
+**Compare dates with "<", ">" and "=="**
+```swift
+if dateA < dateB {
+   print("dateA is the earlier date")
+}
+if dateA > dateB {
+   print("dateA is the later date")
+}
+if dateA == dateB {
+   print("dateA is the same date as dateB")
+}
+```
+----------
+<h4>NSLocalizedString</h4>
+If your *Localizable.strings* file contains this:
+```
+"GREETING" = "Hello";
+"TEMPERATURE" = "It is %f.01°C in %@";
+```
+You can do this:
+**Get localized string for a key**
+```swift
+print(LocalizedString("A_KEY")) // "Hello"
+```
+And this:
+**Get localized string with dynamic parts**
+```swift
+print(LocalizedString("TEMPERATURE", arguments:[21.8, "Paris"])) // "It is 21.8°C in Paris"
+```
+----------
+<h4>UIApplication</h4>
+**Get App version**
+```swift
+let appVersion = UIApplication.appVersion()
+```
+**Get Build number**
+```swift
+let buildNumber = UIApplication.appBuild()
+```
+
 
 ## Author
 
