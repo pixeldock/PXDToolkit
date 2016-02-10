@@ -102,6 +102,7 @@ let buildNumber = UIApplication.appBuild()
 ----------
 <h4>Timing Functions</h4>
 **Delay**
+
 Delays the execution of the closure. Always runs on the main thread.
 ```swift
 delay(seconds: 2) {
