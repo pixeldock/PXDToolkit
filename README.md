@@ -99,7 +99,14 @@ let appVersion = UIApplication.appVersion()
 ```swift
 let buildNumber = UIApplication.appBuild()
 ```
-
+----------
+<h4>Timing Functions</h4>
+**Delay the execution of a closure**
+```swift
+delay(seconds: 2) {
+   print("hello!")
+}
+```
 
 ## Author
 
