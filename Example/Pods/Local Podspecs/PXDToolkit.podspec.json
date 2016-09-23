@@ -1,16 +1,16 @@
 {
   "name": "PXDToolkit",
-  "version": "0.1.0",
-  "summary": "A short description of PXDToolkit.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PXDToolkit",
+  "version": "0.2.0",
+  "summary": "A collection of Swift utility extensions and functions",
+  "description": "This is a collection of utility extensions and functions that I use in my projects.",
+  "homepage": "https://github.com/pixeldock/PXDToolkit",
   "license": "MIT",
   "authors": {
     "Jörn Schoppe": "joern@pixeldock.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PXDToolkit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pixeldock/PXDToolkit.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
