@@ -8,6 +8,7 @@
 
 ## Requirements
 iOS 8.0 or Greater
+
 Swift 3.x
 
 ## Installation
@@ -18,15 +19,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "PXDToolkit"
 ```
-
-## Usage
-
-<h4>Int</h4>
-**Random Int between 0 and 10**
-```swift
-let randomInt = 10.random
-```
-
 Add this to your podfile (if it is not already there) to make the pod work with Swift 3:
 
 ```swift
@@ -39,6 +31,13 @@ post_install do |installer|
 end
 ```
 
+## Usage
+
+<h4>Int</h4>
+**Random Int between 0 and 10**
+```swift
+let randomInt = 10.random
+```
 ----------
 <h4>Array</h4>
 **Get random element from Array**
