@@ -8,6 +8,7 @@
 
 ## Requirements
 iOS 8.0 or Greater
+Swift 3.x
 
 ## Installation
 
@@ -25,6 +26,19 @@ pod "PXDToolkit"
 ```swift
 let randomInt = 10.random
 ```
+
+Add this to your podfile (if it is not already there) to make the pod work with Swift 3:
+
+```swift
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['SWIFT_VERSION'] = '2.3' # or '3.0'
+    end
+  end
+end
+```
+
 ----------
 <h4>Array</h4>
 **Get random element from Array**
@@ -58,20 +72,6 @@ let angleRadians = CGFloat(180).degreesToRadians
 **Radians to Degrees**
 ```swift
 let degrees = CGFloat(3.1415).radiansToDegrees
-```
-----------
-<h4>NSDate</h4>
-**Compare dates with "<", ">" and "=="**
-```swift
-if dateA < dateB {
-   print("dateA is the earlier date")
-}
-if dateA > dateB {
-   print("dateA is the later date")
-}
-if dateA == dateB {
-   print("dateA is the same date as dateB")
-}
 ```
 ----------
 <h4>NSLocalizedString</h4>

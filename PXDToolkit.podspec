@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PXDToolkit"
-  s.version          = "0.2.0"
+  s.version          = "0.3.0"
   s.summary          = "A collection of Swift utility extensions and functions"
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,4 @@ This is a collection of utility extensions and functions that I use in my projec
     'PXDToolkit' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

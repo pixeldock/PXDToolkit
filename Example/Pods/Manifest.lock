@@ -1,5 +1,5 @@
 PODS:
-  - PXDToolkit (0.1.0)
+  - PXDToolkit (0.3.0)
 
 DEPENDENCIES:
   - PXDToolkit (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PXDToolkit: ad3ca1230ea65287e5ddf37ea7c0be96dabf7ed3
+  PXDToolkit: 26d1a2267d42153357e0a7409e6051056a2e1104
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 71b30cf990e4da5e4d0166f0f25a1af2d528db13
+
+COCOAPODS: 1.0.0

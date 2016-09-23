@@ -27,7 +27,7 @@ public extension Array {
      
      - Returns: An Array of random elements from the Array
      */
-    func randomElements(numElements: Int) -> [Element] {
+    func randomElements(_ numElements: Int) -> [Element] {
         return Array(self.shuffled.prefix(numElements))
     }
     
@@ -38,7 +38,7 @@ public extension Array {
      */
     var shuffled: [Element] {
         var shuffledArray = self
-        shuffledArray.enumerate().forEach { (index, element) in
+        shuffledArray.enumerated().forEach { (index, element) in
             let otherIndex = count.random
             if otherIndex != index {
                 swap(&shuffledArray[index], &shuffledArray[otherIndex])

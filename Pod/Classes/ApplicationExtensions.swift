@@ -17,7 +17,7 @@ public extension UIApplication {
      - Returns: A String with the app version
      */
     static func appVersion() -> String {
-        guard let version = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleShortVersionString") as? String else { return "" }
+        guard let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String else { return "" }
         return version
     }
     
@@ -27,7 +27,7 @@ public extension UIApplication {
      - Returns: A String with the current build number
      */
     static func appBuild() -> String {
-        guard let build = NSBundle.mainBundle().objectForInfoDictionaryKey(String(kCFBundleVersionKey)) as? String else { return "" }
+        guard let build = Bundle.main.object(forInfoDictionaryKey: String(kCFBundleVersionKey)) as? String else { return "" }
         return build
     }
 }

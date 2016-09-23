@@ -12,11 +12,11 @@ import PXDToolkit
 class TimingFunctionsTests: XCTestCase {
 
     func testDelay() {
-        let expectation = expectationWithDescription("Did call completion")
+        let expectation = self.expectation(description: "Did call completion")
         delay(seconds: 0.2) {
             expectation.fulfill()
         }
 
-        waitForExpectationsWithTimeout(0.4, handler: nil)
+        waitForExpectations(timeout: 0.4, handler: nil)
     }
 }
