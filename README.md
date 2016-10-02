@@ -7,9 +7,10 @@
 [![Twitter](https://img.shields.io/badge/Twitter-@pixeldock-blue.svg?style=flat)](http://twitter.com/pixeldock)
 
 ## Requirements
-iOS 8.0 or Greater
-
+iOS 8.0 or Greater  
 Swift 3.x
+
+If you are using Swift 2.3 use PXDToolkit version 0.2.1
 
 ## Installation
 
@@ -17,15 +18,20 @@ PXDToolkit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PXDToolkit"
+pod "PXDToolkit", '~> 0.3'
 ```
-Add this to your podfile (if it is not already there) to make the pod work with Swift 3:
+If you are using Swift 2.3 use PXDToolkit version 0.2.1:
+```ruby
+pod "PXDToolkit", '0.2.1'
+```
+
+Add this to your podfile (if it is not already there) to make the pod work with Swift 3 (or Swift 2.3):
 
 ```swift
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['SWIFT_VERSION'] = '2.3' # or '3.0'
+      config.build_settings['SWIFT_VERSION'] = '3.0' # or '2.3'
     end
   end
 end
@@ -57,6 +63,10 @@ let shuffledArray = ["A", "B", "C"].shuffled
 **Color from hex int value**
 ```swift
 let darkRedColor = UIColor(hex: 0xAA0000)
+```
+**Color from hex int value with alpha**
+```swift
+let darkRedColor = UIColor(hex: 0xAA0000, alpha: 0.5)
 ```
 **Hex string from Color**
 ```swift
