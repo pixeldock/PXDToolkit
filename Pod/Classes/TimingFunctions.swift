@@ -17,9 +17,9 @@ import Foundation
  - Parameter completion: A closure containing the code that should be executed after the delay
  */
 
-public func delay(seconds seconds: Double, completion:() -> Void) {
-    let dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64( Double(NSEC_PER_SEC) * seconds ))
-    dispatch_after(dispatchTime, dispatch_get_main_queue()) {
+public func delay(seconds: Double, completion:@escaping () -> Void) {
+    let dispatchTime = DispatchTime.now() + Double(Int64( Double(NSEC_PER_SEC) * seconds )) / Double(NSEC_PER_SEC)
+    DispatchQueue.main.asyncAfter(deadline: dispatchTime) {
         completion()
     }
 }

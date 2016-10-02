@@ -17,7 +17,7 @@ Gets the localized string for a key
 
 - Returns: The localized string
 */
-public func LocalizedString(key: String) -> String {
+public func LocalizedString(_ key: String) -> String {
     return NSLocalizedString(key, comment: "")
 }
 
@@ -35,7 +35,7 @@ public func LocalizedString(key: String) -> String {
  
  - Returns: The localized string containing the values
  */
-public func LocalizedString(key: String, arguments:[CVarArgType]) -> String {
+public func LocalizedString(_ key: String, arguments:[CVarArg]) -> String {
     let formatString = NSLocalizedString(key, comment: "")
     return String(format: formatString, arguments: arguments)
 }
