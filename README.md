@@ -7,7 +7,8 @@
 [![Twitter](https://img.shields.io/badge/Twitter-@pixeldock-blue.svg?style=flat)](http://twitter.com/pixeldock)
 
 ## Requirements
-iOS 8.0 or Greater
+iOS 8.0 or Greater  
+Swift 2.3
 
 ## Installation
 
@@ -15,7 +16,7 @@ PXDToolkit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PXDToolkit"
+pod "PXDToolkit", '0.2.1'
 ```
 
 ## Usage
