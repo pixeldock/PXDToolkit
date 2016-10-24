@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
 [![License](https://img.shields.io/cocoapods/l/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
 [![Platform](https://img.shields.io/cocoapods/p/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
+[![Swift](https://img.shields.io/badge/Swift-3.x-orange.svg?style=flat)](https://swift.org/)
 [![Twitter](https://img.shields.io/badge/Twitter-@pixeldock-blue.svg?style=flat)](http://twitter.com/pixeldock)
 
 ## Requirements
