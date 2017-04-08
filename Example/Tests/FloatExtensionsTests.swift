@@ -14,11 +14,11 @@ class FloatExtensionsTests: XCTestCase {
     func testDegreesToRadians() {
         let degrees: CGFloat = 180
         let radians = degrees.degreesToRadians
-        XCTAssertEqual(radians, CGFloat(M_PI))
+        XCTAssertEqual(radians, .pi)
     }
     
     func testRadiansToDegree() {
-        let radians: CGFloat = CGFloat(M_PI)
+        let radians: CGFloat = .pi
         let degrees = radians.radiansToDegrees
         XCTAssertEqual(degrees, CGFloat(180))
     }

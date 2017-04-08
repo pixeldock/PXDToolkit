@@ -17,7 +17,7 @@ public extension CGFloat {
      - Returns: The value in radians
      */
     var degreesToRadians: CGFloat {
-        return self * CGFloat(M_PI) / 180.0
+        return self * .pi / 180.0
     }
     
     /**
@@ -26,6 +26,6 @@ public extension CGFloat {
      - Returns: The value in degrees
      */
     var radiansToDegrees: CGFloat {
-        return self * 180.0 / CGFloat(M_PI)
+        return self * 180.0 / .pi
     }
 }
