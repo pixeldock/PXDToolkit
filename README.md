@@ -5,12 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
 [![Platform](https://img.shields.io/cocoapods/p/PXDToolkit.svg?style=flat)](http://cocoapods.org/pods/PXDToolkit)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Swift](https://img.shields.io/badge/Swift-3.x-orange.svg?style=flat)](https://swift.org/)
+[![Swift](https://img.shields.io/badge/Swift-4.x-orange.svg?style=flat)](https://swift.org/)
 [![Twitter](https://img.shields.io/badge/Twitter-@pixeldock-blue.svg?style=flat)](http://twitter.com/pixeldock)
 
 ## Requirements
 iOS 8.0 or Greater  
 Swift 4
+
+If you are using Swift 3.x use PXDToolkit version 0.3.1
 
 If you are using Swift 2.3 use PXDToolkit version 0.2.1
 
@@ -23,17 +25,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "PXDToolkit", '~> 0.4'
 ```
+If you are using Swift 3.x use PXDToolkit version 0.3.1:
+```ruby
+pod "PXDToolkit", '0.3.1'
+```
 If you are using Swift 2.3 use PXDToolkit version 0.2.1:
 ```ruby
 pod "PXDToolkit", '0.2.1'
 ```
-Add this to your podfile (if it is not already there) to make the pod work with Swift 3.1 (or Swift 2.3):
+Add this to your podfile (if it is not already there) to make the pod work with Swift 4, 3.1 (or Swift 2.3):
 
 ```swift
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['SWIFT_VERSION'] = '4.0' # or '2.3'
+      config.build_settings['SWIFT_VERSION'] = '4.0' # or the Swift version you are using
     end
   end
 end
