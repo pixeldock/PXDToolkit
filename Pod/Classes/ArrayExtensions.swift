@@ -41,7 +41,7 @@ public extension Array {
         shuffledArray.enumerated().forEach { (index, element) in
             let otherIndex = count.random
             if otherIndex != index {
-                swap(&shuffledArray[index], &shuffledArray[otherIndex])
+                shuffledArray.swapAt(index, otherIndex)
             }
         }
         return shuffledArray
