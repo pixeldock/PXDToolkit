@@ -10,7 +10,7 @@
 
 ## Requirements
 iOS 8.0 or Greater  
-Swift 3.1
+Swift 4
 
 If you are using Swift 2.3 use PXDToolkit version 0.2.1
 
@@ -21,7 +21,7 @@ If you are using Swift 2.3 use PXDToolkit version 0.2.1
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PXDToolkit", '~> 0.3'
+pod "PXDToolkit", '~> 0.4'
 ```
 If you are using Swift 2.3 use PXDToolkit version 0.2.1:
 ```ruby
@@ -33,7 +33,7 @@ Add this to your podfile (if it is not already there) to make the pod work with 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['SWIFT_VERSION'] = '3.1' # or '2.3'
+      config.build_settings['SWIFT_VERSION'] = '4.0' # or '2.3'
     end
   end
 end

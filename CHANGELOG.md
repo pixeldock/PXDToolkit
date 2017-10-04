@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.4.0
+-----
+- update to Swift 4
+
 0.3.1
 -----
 - update to Swift 3.1
