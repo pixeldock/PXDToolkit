@@ -3,11 +3,11 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-osx_image: xcode8.3
+osx_image: xcode9
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/PXDToolkit.xcworkspace -scheme PXDToolkit-Example -sdk iphonesimulator -destination platform='iOS Simulator',OS='11',name='iPhone SE' ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -workspace Example/PXDToolkit.xcworkspace -scheme PXDToolkit-Example -sdk iphonesimulator -destination platform='iOS Simulator',OS='11.0',name='iPhone SE' ONLY_ACTIVE_ARCH=NO | xcpretty
